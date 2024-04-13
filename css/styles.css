@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.showproduct {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.product .image img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.product .title {
+    margin-top: 10px;
+}
+
+.product .title a {
+    color: #444;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.product .title a:hover {
+    color: #F30;
+}
+
+.product .mota,
+.product .tacgia {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    vertical-align: middle;
+    padding: 5px 0px;
+}
+
+.product .price {
+    color: #c70101;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.product .button {
+    margin-top: 10px;
+}
+
+.product .button input[type="button"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product .button input[type="button"]:hover {
+    background-color: #45a049;
+}
